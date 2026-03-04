@@ -1,6 +1,9 @@
-** Distributed Machine Learning Pipeline on AWS EMR
+🚀 Distributed Machine Learning Pipeline on AWS EMR
 Heart Disease Prediction using Apache Spark
-Project Overview
+
+---
+
+## Project Overview
 
 This project implements a distributed machine learning pipeline for heart disease prediction using:
 
@@ -16,7 +19,10 @@ The system demonstrates how distributed computing can be applied to scalable dat
 
 This project was developed as part of a Parallel and Distributed Computing course and structured to reflect real-world cloud-native data engineering practices.
 
-Architecture Overview
+---
+
+
+## Architecture Overview
 Pipeline Flow
 
 Raw dataset uploaded to Amazon S3
@@ -29,7 +35,10 @@ Parallel model training using Spark MLlib
 
 Trained model stored back in Amazon S3
 
-Dataset
+---
+
+
+## Dataset
 
 Source: Kaggle
 
@@ -47,7 +56,10 @@ Class imbalance:
 
 Handled using weighted learning strategy in Spark.
 
-Distributed Processing Workflow
+---
+
+
+## Distributed Processing Workflow
 1. Exploratory Data Analysis
 
 Schema validation
@@ -96,7 +108,10 @@ ROC-AUC
 
 All training executed in distributed Spark environment on Amazon EMR.
 
-Final Model
+---
+
+
+## Final Model
 
 Best Performing Model: Gradient Boosted Trees
 
@@ -106,7 +121,10 @@ Model stored as Spark PipelineModel in Amazon S3
 
 Batch inference supported using Spark job submission.
 
-Optional Extension (Not Implemented)
+---
+
+
+## Optional Extension (Not Implemented)
 
 The architecture can be extended to support:
 
@@ -118,7 +136,10 @@ Real-time streaming via Kinesis
 
 These were proposed as future scalability enhancements.
 
-Technology Stack
+---
+
+
+## Technology Stack
 
 Python
 
@@ -134,7 +155,10 @@ Amazon EMR
 
 Parquet Storage Format
 
-Key Technical Highlights
+---
+
+
+## Key Technical Highlights
 
 Distributed ETL processing
 
@@ -146,8 +170,9 @@ Feature importance ranking
 
 Cloud-based scalable ML architecture
 
-Separation of raw, processed, and model layers (Bronze/Silver/Gold structure)**
+Separation of raw, processed, and model layers (Bronze/Silver/Gold structure)
 
+---
 aws-emr-distributed-heart-disease-ml/
 │
 ├── README.md
