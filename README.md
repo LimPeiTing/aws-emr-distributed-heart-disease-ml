@@ -1,4 +1,4 @@
-🚀 Distributed Machine Learning Pipeline on AWS EMR
+## Distributed Machine Learning Pipeline on AWS EMR
 Heart Disease Prediction using Apache Spark
 
 ---
